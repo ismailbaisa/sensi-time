@@ -1,0 +1,48 @@
+.card {
+    background-color: $white-1;
+    padding: 30px;
+    border: 1px solid $gray-1;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button {
+    font-family: monospace;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    color: $white-1;
+    border-radius: 5px;
+    font-size: $font-med;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        transition: 200ms ease-in-out;
+        transform: scale(1.1);
+    }
+
+    &__default {
+        background-color: $white-1;
+        color: $black-1;
+    }
+
+    &__gray {
+        background-color: $gray-1;
+        color: $black-1;
+    }
+
+    &__warning {
+        background-color: $warning;
+    }
+
+    &__success {
+        background-color: $success;
+    }
+
+    &__danger {
+        background-color: $danger;
+    }
+}

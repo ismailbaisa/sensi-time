@@ -24,7 +24,7 @@ export default {
     start() {
       this.isDelaying = 2000 + Math.random() * 5000;
       this.isPlaying = true
-      this.showScore = false
+      // this.showScore = false
     },
     // endGame(){
     //    this.isPlaying = false

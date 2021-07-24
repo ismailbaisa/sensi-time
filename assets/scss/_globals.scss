@@ -1,0 +1,22 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
+body {
+  font-family: monospace;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

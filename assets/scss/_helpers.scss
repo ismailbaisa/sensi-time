@@ -1,0 +1,98 @@
+// Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-fd-c {
+    flex-direction: column;
+  }
+
+  &-fd-r {
+    flex-direction: row;
+  }
+}
+
+
+@for $i from 1 through 1920 {
+
+  //Screen Sizes
+  .vh-#{$i} {
+    height: $i + vh;
+  }
+
+  .vw-#{$i} {
+    width: $i + vw;
+  }
+
+  //Percentiles
+  .hh-#{$i} {
+    height: $i * 100%;
+  }
+
+  .ww-#{$i} {
+    width: $i * 100%;
+  }
+
+  //Pixels
+
+  .pxh-#{$i} {
+    height: $i + px;
+  }
+
+  .pxw-#{$i} {
+    width: $i + px;
+  }
+
+  // Paddings
+  .pa-#{$i} {
+    padding: $i + px;
+  }
+
+  .pt-#{$i} {
+    padding-top: $i + px;
+  }
+
+  .pr-#{$i} {
+    padding-right: $i + px;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $i + px;
+  }
+
+  .pl-#{$i} {
+    padding-left: $i + px;
+  }
+
+  // Margin
+  .ma-#{$i} {
+    margin: $i + px;
+  }
+
+  .mt-#{$i} {
+    margin-top: $i + px;
+  }
+
+  .mr-#{$i} {
+    margin-right: $i + px;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $i + px;
+  }
+
+  .ml-#{$i} {
+    margin-left: $i + px;
+  }
+}
